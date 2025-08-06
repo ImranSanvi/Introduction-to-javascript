@@ -27,9 +27,19 @@ console.log(numbers.join(" "));
 let removed = numbers.shift();
 console.log(numbers);
 
-// numbers.splice(3, 1);
+// delete element
+numbers.splice(3, 1);
 console.log(numbers.join(" "));
 
 // check the the number is include 
 console.log(numbers.includes(88))//false
+
+// push : insert at last
+// pop : delete from last
+// shift : delete from first
+// unshift : insert at first
+
+// reverse array
+numbers.reverse();
+console.log(numbers);
 
