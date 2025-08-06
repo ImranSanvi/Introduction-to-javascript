@@ -43,3 +43,13 @@ console.log(numbers.includes(88))//false
 numbers.reverse();
 console.log(numbers);
 
+// 2D array
+let marks = [
+    [87, 66, 78, 90, 88],
+    [83, 66, 85, 70, 78],
+    [75, 66, 78, 70, 67],
+    [87, 75, 78, 90, 98]
+]
+console.log(marks);
+console.log(marks[0][0]);
+
