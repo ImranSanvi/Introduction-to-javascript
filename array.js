@@ -53,3 +53,12 @@ let marks = [
 console.log(marks);
 console.log(marks[0][0]);
 
+// arry copy
+let number = [75.25, 65, 80, 35.45, 99.50];
+let new_numbers = Array.from(number);
+
+number[0] = 44;
+new_numbers[1] = 50
+console.log(number);
+console.log(new_numbers);
+
