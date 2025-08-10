@@ -62,3 +62,6 @@ new_numbers[1] = 50
 console.log(number);
 console.log(new_numbers);
 
+//remove duplicate
+let unique = [...new Set(arr)];
+
